@@ -27,12 +27,17 @@ public class BruceMove : MonoBehaviour
     
     public GameObject FireBall;
     public Transform throwPoint;
+    bool canShoot;
+
+    public AudioSource throwSound;
+    public AudioSource projectileSound;
 
     // Start is called before the first frame update
     void Start()
     {
         therb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        canShoot = true;
     }
 
     // Update is called once per frame
@@ -55,19 +60,25 @@ public class BruceMove : MonoBehaviour
         {
             therb.velocity = new Vector2(therb.velocity.x, jumpForce);
         }
-        if(Input.GetKeyDown(shoot))
+        if(Input.GetKeyDown(shoot) && canShoot == true)
         {
             GameObject fireClone = (GameObject)Instantiate(FireBall, throwPoint.position, throwPoint.rotation);
             fireClone.transform.localScale = transform.localScale;
             anim.SetTrigger("Shoot");
+            canShoot = false;
+            StartCoroutine(WaitAfterShoot());
+            projectileSound.Play();
         }
         if(Input.GetKeyDown(punch))
         {
             anim.SetTrigger("Punch");
+            throwSound.Play();
         }
         if(Input.GetKeyDown(kick))
         {
+            
             anim.SetTrigger("Kick");
+            throwSound.Play();
         }
         if(therb.velocity.x <0)
         {
@@ -78,6 +89,22 @@ public class BruceMove : MonoBehaviour
         }
         anim.SetFloat("Speed", Mathf.Abs(therb.velocity.x));
         anim.SetBool("Jump", isGrounded);
+
+
         
+    }
+    
+    IEnumerator WaitAfterShoot()
+    {
+        yield return new WaitForSeconds(2);
+        canShoot = true;
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player2")
+        {
+            FindObjectOfType<GameManager>().HurtP2();
+        }
+     
     }
 }

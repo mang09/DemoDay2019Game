@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: 000438f42332b468087c995f5fd9b8ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9139709544853939306
+    second: street ball stage people_0
+  - first:
+      213: 4119030982717943182
+    second: street ball stage people_1
+  - first:
+      213: -1325168923714076833
+    second: street ball stage people_2
+  - first:
+      213: 9043010104084807830
+    second: street ball stage people_3
+  - first:
+      213: -3433202994116292268
+    second: street ball stage people_4
+  - first:
+      213: 1345162976769311040
+    second: street ball stage people_5
+  - first:
+      213: 2604597099879097391
+    second: street ball stage people_6
+  - first:
+      213: -4623504526932219490
+    second: street ball stage people_7
+  - first:
+      213: -1955757147496864804
+    second: street ball stage people_8
+  - first:
+      213: -8869698099617492896
+    second: street ball stage people_9
+  - first:
+      213: 9202999828959658723
+    second: street ball stage people_10
+  - first:
+      213: 8209488566009014009
+    second: street ball stage people_11
+  - first:
+      213: 6006464677001339211
+    second: street ball stage people_12
+  - first:
+      213: 7811569601229618939
+    second: street ball stage people_13
+  - first:
+      213: 8664537766089509797
+    second: street ball stage people_14
+  - first:
+      213: -1025453120858950084
+    second: street ball stage people_15
+  - first:
+      213: -2547786740946779877
+    second: street ball stage people_16
+  - first:
+      213: -1521783873268049843
+    second: street ball stage people_17
+  - first:
+      213: 809651614808461213
+    second: street ball stage people_18
+  - first:
+      213: 7484690721050242322
+    second: street ball stage people_19
+  - first:
+      213: 6350800144146227780
+    second: street ball stage people_20
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: street ball stage people_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 690
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbf4cdad22df4536bfe7cb26e0a4e37
+      internalID: 9139709544853939306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 690
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdcd5da370f64eef84e78d0d9f9a0bd
+      internalID: 4119030982717943182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 690
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eca23dfb0ca4ae59fc53e346f6b329
+      internalID: -1325168923714076833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_3
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 690
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6e9c26f25f643a681f7012d569917d
+      internalID: 9043010104084807830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 690
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d144607b514b400ebb5ed041b736857
+      internalID: -3433202994116292268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 690
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fdc31cf79c44f808828ba15d59d70f
+      internalID: 1345162976769311040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 440
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c147ff3c6f140409fd98a446bd6f22
+      internalID: 2604597099879097391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_7
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 440
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cef8af3179704081b0bf1b9dcc7d734
+      internalID: -4623504526932219490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 420
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39466822d234416a9b1e48a7746e271
+      internalID: -1955757147496864804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_9
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 370
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654864940010045bbae2d75b2d53c157
+      internalID: -8869698099617492896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 370
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c146d25febbab460788bc992d6a3066f
+      internalID: 9202999828959658723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 370
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cc2cb48620c487c90f139c3c5ac0b4
+      internalID: 8209488566009014009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_12
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 370
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49790913f67642d682790bc872b80f2
+      internalID: 6006464677001339211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_13
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 370
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ec64867b6a84890b9584147583ee36
+      internalID: 7811569601229618939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_14
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 370
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ddd3eab5fad430db48a33f28ccc5ff
+      internalID: 8664537766089509797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 90
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de988bcf5ef04e44a0cf94aa569daaf
+      internalID: -1025453120858950084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_16
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f65b5af26744410814f31200548910
+      internalID: -2547786740946779877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_17
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d386b6e0280244ce9590935ab2be7b0
+      internalID: -1521783873268049843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 50
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d184b97a7c844421870689bbea7237a
+      internalID: 809651614808461213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_19
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 70
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04384ff468c174adba12f4fc30dc1e97
+      internalID: 7484690721050242322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: street ball stage people_20
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 50
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e821fa3bdb741ecad7b3bee8712ab5
+      internalID: 6350800144146227780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9d01068a33157425aadc97e898cd141b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

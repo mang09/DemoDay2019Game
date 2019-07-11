@@ -24,7 +24,11 @@ public class FireBallBruce : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        Instantiate(fireBallEffect, transform.position, transform.rotation);
+        if(other.tag == "Player2")
+        {
+            FindObjectOfType<GameManager>().HurtP2();
+        }
         Destroy(gameObject);
+        Instantiate(fireBallEffect, transform.position, transform.rotation);
     }
 }

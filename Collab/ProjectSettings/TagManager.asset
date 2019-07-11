@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Player1
+  - Player2
+  - Background2
+  - Person1
+  - Person2
+  - Fountain
   layers:
   - Default
   - TransparentFX

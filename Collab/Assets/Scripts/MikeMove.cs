@@ -24,11 +24,20 @@ public class MikeMove : MonoBehaviour
     
     private Animator anim;
     
+    public GameObject fireBall;
+    public Transform throwPoint;
+    bool canShoot;
+
+    public AudioSource throwSound;
+    public AudioSource projectileSound;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
         theRB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        canShoot = true;
     }
 
     // Update is called once per frame
@@ -50,17 +59,24 @@ public class MikeMove : MonoBehaviour
         {
             theRB.velocity = new Vector2(theRB.velocity.x, jumpForce);
         }
-        if(Input.GetKeyDown(shoot))
+        if(Input.GetKeyDown(shoot) && canShoot == true)
         {
+             GameObject fireClone = (GameObject)Instantiate(fireBall, throwPoint.position, throwPoint.rotation);
+            fireClone.transform.localScale = transform.localScale;
              anim.SetTrigger("Shoot");
+             canShoot = false;
+             StartCoroutine(WaitShoot());
+             projectileSound.Play();
         }
         if(Input.GetKeyDown(punch))
         {
              anim.SetTrigger("Punch");
+             throwSound.Play();
         }
         if(Input.GetKeyDown(Kick))
         {
              anim.SetTrigger("Kick");
+             throwSound.Play();
         }
         if(theRB.velocity.x <0)
         {
@@ -71,5 +87,18 @@ public class MikeMove : MonoBehaviour
         }
         anim.SetFloat("Speed", Mathf.Abs(theRB.velocity.x));
         anim.SetBool("Jump", isGrounded);
+    }
+    IEnumerator WaitShoot()
+    {
+        yield return new WaitForSeconds(1);
+        canShoot = true;
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player1")
+        {
+            FindObjectOfType<GameManager>().HurtP1();
+        }
+      
     }
 }
